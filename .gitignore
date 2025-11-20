@@ -1,3 +1,8 @@
+#
+hf-mf-*.bin
+hf-mf-*.json
+hf-mf-*.txt
+
 # globs
 Makefile.in
 *.userprefs
