@@ -1,0 +1,134 @@
+[
+  {
+    "lineId": 1,
+    "lineName": "1 - DEMANDA 1"
+  },
+  {
+    "lineId": 9,
+    "lineName": "9 - PRUEBAS"
+  },
+  {
+    "lineId": 10,
+    "lineName": "10 - Montserrat-Gaudi"
+  },
+  {
+    "lineId": 11,
+    "lineName": "11 - Montserrat-Oques "
+  },
+  {
+    "lineId": 12,
+    "lineName": "12 - Reforç Montserrat-Oques"
+  },
+  {
+    "lineId": 13,
+    "lineName": "13 - MONTSERRAT- OQUES (REFORÇ)"
+  },
+  {
+    "lineId": 14,
+    "lineName": "14 - OQUES - MONTSERRAT (REFORÇ)"
+  },
+  {
+    "lineId": 20,
+    "lineName": "20 - Nou Hospital-Immaculada"
+  },
+  {
+    "lineId": 21,
+    "lineName": "21 - Hospital- Sant Bernat Calbo"
+  },
+  {
+    "lineId": 30,
+    "lineName": "30 - Oques - Pelai"
+  },
+  {
+    "lineId": 31,
+    "lineName": "31 - Oques - Reus Transport"
+  },
+  {
+    "lineId": 32,
+    "lineName": "32 - Oques - Cementiri"
+  },
+  {
+    "lineId": 33,
+    "lineName": "33 - El Pinar-Oques"
+  },
+  {
+    "lineId": 34,
+    "lineName": "34 - Reus Deportiu Futbol"
+  },
+  {
+    "lineId": 35,
+    "lineName": "35 - Tot sants"
+  },
+  {
+    "lineId": 36,
+    "lineName": "36 - TOT SANTS"
+  },
+  {
+    "lineId": 40,
+    "lineName": "40 - Instituts"
+  },
+  {
+    "lineId": 41,
+    "lineName": "41 - Instituts 2"
+  },
+  {
+    "lineId": 42,
+    "lineName": "42 - Instituts 3"
+  },
+  {
+    "lineId": 43,
+    "lineName": "43 - IES D. MONTANER - AGROREUS"
+  },
+  {
+    "lineId": 50,
+    "lineName": "50 - Aeroport"
+  },
+  {
+    "lineId": 60,
+    "lineName": "60 - Nou Hospital-Oques "
+  },
+  {
+    "lineId": 80,
+    "lineName": "80 - FIRA DE REUS 2"
+  },
+  {
+    "lineId": 81,
+    "lineName": "81 - Parc de Nadal"
+  },
+  {
+    "lineId": 82,
+    "lineName": "82 - FIRA DE REUS (SERVEIS ESPECIALS)"
+  },
+  {
+    "lineId": 99,
+    "lineName": "99 - PRUEBAS"
+  },
+  {
+    "lineId": 408,
+    "lineName": "8 - Hosp. Joan XXIII-Arrabassada"
+  },
+  {
+    "lineId": 516,
+    "lineName": "86 - Tarragona-Estació del Camp"
+  },
+  {
+    "lineId": 567,
+    "lineName": "Tarragona - Reus"
+  },
+  {
+    "lineId": 582,
+    "lineName": "Falset - Marçà FFCC"
+  },
+  {
+    "lineId": 767,
+    "lineName": "Rodalies de Tarragona"
+  },
+  {
+    "lineId": 786,
+    "lineName": "41 - Zona Educacional-Estació"
+  },
+  {
+    "lineId": 790,
+    "lineName": "21 - Cap Muralles-Estació"
+  }
+]

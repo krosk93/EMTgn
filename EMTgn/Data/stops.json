@@ -1,0 +1,2594 @@
+[
+  {
+    "stopId": 1,
+    "stopName": "Aeroport "
+  },
+  {
+    "stopId": 2,
+    "stopName": "Adrià Gual 2"
+  },
+  {
+    "stopId": 3,
+    "stopName": "Adrià Gual 1"
+  },
+  {
+    "stopId": 4,
+    "stopName": "Agro Reus 2"
+  },
+  {
+    "stopId": 5,
+    "stopName": "Agro Reus 1"
+  },
+  {
+    "stopId": 6,
+    "stopName": "Alcolea"
+  },
+  {
+    "stopId": 7,
+    "stopName": "Antoni Rubio i Lluch 2"
+  },
+  {
+    "stopId": 8,
+    "stopName": "Antoni Rubió i Lluch 1"
+  },
+  {
+    "stopId": 9,
+    "stopName": "Av. de Marià Fortuny 1"
+  },
+  {
+    "stopId": 10,
+    "stopName": "Av. de Marià Fortuny 2"
+  },
+  {
+    "stopId": 11,
+    "stopName": "Av. de Sant Jordi  1"
+  },
+  {
+    "stopId": 12,
+    "stopName": "Av. de Sant Jordi 2"
+  },
+  {
+    "stopId": 13,
+    "stopName": "B. Montserrat"
+  },
+  {
+    "stopId": 14,
+    "stopName": "Barri Fortuny 1"
+  },
+  {
+    "stopId": 15,
+    "stopName": "Barri Fortuny 2"
+  },
+  {
+    "stopId": 16,
+    "stopName": "Barri Fortuny 3"
+  },
+  {
+    "stopId": 17,
+    "stopName": "Sagrada familia"
+  },
+  {
+    "stopId": 18,
+    "stopName": "Bellisens 1"
+  },
+  {
+    "stopId": 19,
+    "stopName": "Bellisens 2"
+  },
+  {
+    "stopId": 20,
+    "stopName": "Boca de la Mina"
+  },
+  {
+    "stopId": 21,
+    "stopName": "Parc de la Festa 1"
+  },
+  {
+    "stopId": 22,
+    "stopName": "Parc de la Festa 2"
+  },
+  {
+    "stopId": 23,
+    "stopName": "Cami de Tarragona 1"
+  },
+  {
+    "stopId": 24,
+    "stopName": "Cami de Tarragona 2"
+  },
+  {
+    "stopId": 25,
+    "stopName": "Cami de Valls 1"
+  },
+  {
+    "stopId": 26,
+    "stopName": "Cami de Valls 2"
+  },
+  {
+    "stopId": 27,
+    "stopName": "CAP Barri Fortuny 1"
+  },
+  {
+    "stopId": 28,
+    "stopName": "CAP Barri Fortuny 2"
+  },
+  {
+    "stopId": 29,
+    "stopName": "CAP Sant Pere"
+  },
+  {
+    "stopId": 30,
+    "stopName": "Carrilet"
+  },
+  {
+    "stopId": 31,
+    "stopName": "Cementiri"
+  },
+  {
+    "stopId": 32,
+    "stopName": "Clarassó"
+  },
+  {
+    "stopId": 33,
+    "stopName": "Escola M. Fortuny 1"
+  },
+  {
+    "stopId": 34,
+    "stopName": "Escola M. Fortuny 2"
+  },
+  {
+    "stopId": 36,
+    "stopName": "Avinguda Castellvell 1"
+  },
+  {
+    "stopId": 37,
+    "stopName": "Avinguda Castellvell 2"
+  },
+  {
+    "stopId": 38,
+    "stopName": "Dipòsit de Vehicles 2"
+  },
+  {
+    "stopId": 39,
+    "stopName": "Dipòsit de Vehicles 1"
+  },
+  {
+    "stopId": 40,
+    "stopName": "Dom Bosco 1"
+  },
+  {
+    "stopId": 41,
+    "stopName": "Dom Bosco 2"
+  },
+  {
+    "stopId": 42,
+    "stopName": "Dr. Vilaseca 2"
+  },
+  {
+    "stopId": 43,
+    "stopName": "Dr. Vilaseca 1"
+  },
+  {
+    "stopId": 44,
+    "stopName": "El Pinar 1"
+  },
+  {
+    "stopId": 45,
+    "stopName": "El Pinar "
+  },
+  {
+    "stopId": 46,
+    "stopName": "Estació d'Autobusos 1"
+  },
+  {
+    "stopId": 47,
+    "stopName": "Estació d'Autobusos 2"
+  },
+  {
+    "stopId": 49,
+    "stopName": "Estadi Municipal"
+  },
+  {
+    "stopId": 50,
+    "stopName": "Pompeu Fabra 1"
+  },
+  {
+    "stopId": 51,
+    "stopName": "Pompeu Fabra 2"
+  },
+  {
+    "stopId": 52,
+    "stopName": "Flix 1"
+  },
+  {
+    "stopId": 53,
+    "stopName": "Flix 2"
+  },
+  {
+    "stopId": 54,
+    "stopName": "Foch i Torres"
+  },
+  {
+    "stopId": 55,
+    "stopName": "Font de Rubinat 1"
+  },
+  {
+    "stopId": 56,
+    "stopName": "Font de Rubinat 2"
+  },
+  {
+    "stopId": 57,
+    "stopName": "Gironès"
+  },
+  {
+    "stopId": 58,
+    "stopName": "Greco 1"
+  },
+  {
+    "stopId": 59,
+    "stopName": "Greco 2"
+  },
+  {
+    "stopId": 60,
+    "stopName": "Horticultura"
+  },
+  {
+    "stopId": 61,
+    "stopName": "IES Domenech i Montaner"
+  },
+  {
+    "stopId": 62,
+    "stopName": "Inmaculada"
+  },
+  {
+    "stopId": 63,
+    "stopName": "IPM"
+  },
+  {
+    "stopId": 64,
+    "stopName": "Jardins de Reus 1"
+  },
+  {
+    "stopId": 65,
+    "stopName": "Jaume I "
+  },
+  {
+    "stopId": 66,
+    "stopName": "Joan Rebull 1"
+  },
+  {
+    "stopId": 67,
+    "stopName": "Joan Rebull 2"
+  },
+  {
+    "stopId": 68,
+    "stopName": "Jutjats 1"
+  },
+  {
+    "stopId": 69,
+    "stopName": "Jutjats 2"
+  },
+  {
+    "stopId": 70,
+    "stopName": "La Salle 1"
+  },
+  {
+    "stopId": 71,
+    "stopName": "La Salle 2"
+  },
+  {
+    "stopId": 72,
+    "stopName": "Llibertat"
+  },
+  {
+    "stopId": 73,
+    "stopName": "Mare Moles 1"
+  },
+  {
+    "stopId": 74,
+    "stopName": "Mare Moles 2"
+  },
+  {
+    "stopId": 75,
+    "stopName": "Mas Abello 2"
+  },
+  {
+    "stopId": 76,
+    "stopName": "Mas Batlle 2"
+  },
+  {
+    "stopId": 77,
+    "stopName": "Mas Batlle 1"
+  },
+  {
+    "stopId": 78,
+    "stopName": "Mas de les Ánimes 2"
+  },
+  {
+    "stopId": 79,
+    "stopName": "Mas de les Ánimes 1"
+  },
+  {
+    "stopId": 83,
+    "stopName": "Miami 1"
+  },
+  {
+    "stopId": 84,
+    "stopName": "Miami 2"
+  },
+  {
+    "stopId": 85,
+    "stopName": "Misericòrdia 1"
+  },
+  {
+    "stopId": 86,
+    "stopName": "Misericòrdia 2"
+  },
+  {
+    "stopId": 87,
+    "stopName": "Niloga 1"
+  },
+  {
+    "stopId": 88,
+    "stopName": "Niloga 2"
+  },
+  {
+    "stopId": 91,
+    "stopName": "Oques 1"
+  },
+  {
+    "stopId": 92,
+    "stopName": "Oques 2"
+  },
+  {
+    "stopId": 93,
+    "stopName": "Oques 3"
+  },
+  {
+    "stopId": 94,
+    "stopName": "Pablo Picasso 1"
+  },
+  {
+    "stopId": 95,
+    "stopName": "Pablo Picasso 2"
+  },
+  {
+    "stopId": 96,
+    "stopName": "Països Catalans"
+  },
+  {
+    "stopId": 97,
+    "stopName": "Parcel.les Casas 1"
+  },
+  {
+    "stopId": 98,
+    "stopName": "Parcel.les Casas 2"
+  },
+  {
+    "stopId": 99,
+    "stopName": "Pare Manyanet 1"
+  },
+  {
+    "stopId": 100,
+    "stopName": "Pare Manyanet 2"
+  },
+  {
+    "stopId": 101,
+    "stopName": "Pastoreta 1"
+  },
+  {
+    "stopId": 102,
+    "stopName": "Pastoreta 2"
+  },
+  {
+    "stopId": 103,
+    "stopName": "Peixeteries Velles"
+  },
+  {
+    "stopId": 104,
+    "stopName": "Pelai 2"
+  },
+  {
+    "stopId": 105,
+    "stopName": "Pelai 1"
+  },
+  {
+    "stopId": 106,
+    "stopName": "Pere El Ceremoniós 1"
+  },
+  {
+    "stopId": 107,
+    "stopName": "Pere El Ceremoniós 2"
+  },
+  {
+    "stopId": 108,
+    "stopName": "Pg. dels Platans"
+  },
+  {
+    "stopId": 109,
+    "stopName": "Pg. de Prim 1"
+  },
+  {
+    "stopId": 110,
+    "stopName": "Pg. de Prim 2"
+  },
+  {
+    "stopId": 111,
+    "stopName": "Pg. de Sunyer 1"
+  },
+  {
+    "stopId": 112,
+    "stopName": "Pg. de Sunyer 2"
+  },
+  {
+    "stopId": 113,
+    "stopName": "Piscines Municipals 1"
+  },
+  {
+    "stopId": 114,
+    "stopName": "Piscines Municipals 2"
+  },
+  {
+    "stopId": 115,
+    "stopName": "Pl. Almoster 1"
+  },
+  {
+    "stopId": 116,
+    "stopName": "Pl. Almoster 2"
+  },
+  {
+    "stopId": 117,
+    "stopName": "Sant Josep 2"
+  },
+  {
+    "stopId": 118,
+    "stopName": "Pl. de Prim"
+  },
+  {
+    "stopId": 119,
+    "stopName": "Pl. Hercules 1"
+  },
+  {
+    "stopId": 120,
+    "stopName": "Pl. Hercules 2"
+  },
+  {
+    "stopId": 121,
+    "stopName": "Ploms 1"
+  },
+  {
+    "stopId": 122,
+    "stopName": "Ploms 2"
+  },
+  {
+    "stopId": 123,
+    "stopName": "Raval de Marti Folguera"
+  },
+  {
+    "stopId": 124,
+    "stopName": "Raval de Robuster"
+  },
+  {
+    "stopId": 125,
+    "stopName": "Recasens i Mercadé 2"
+  },
+  {
+    "stopId": 126,
+    "stopName": "Recasens i Mercadé 1"
+  },
+  {
+    "stopId": 127,
+    "stopName": "REDESSA 1"
+  },
+  {
+    "stopId": 128,
+    "stopName": "REDESSA 2"
+  },
+  {
+    "stopId": 129,
+    "stopName": "RENFE 1"
+  },
+  {
+    "stopId": 130,
+    "stopName": "RENFE 2"
+  },
+  {
+    "stopId": 132,
+    "stopName": "Reus Transport"
+  },
+  {
+    "stopId": 133,
+    "stopName": "Riera"
+  },
+  {
+    "stopId": 134,
+    "stopName": "Riera d'Aragó 1"
+  },
+  {
+    "stopId": 135,
+    "stopName": "Riera d'Aragó 2"
+  },
+  {
+    "stopId": 136,
+    "stopName": "Ripollès"
+  },
+  {
+    "stopId": 137,
+    "stopName": "Riudoms 1"
+  },
+  {
+    "stopId": 138,
+    "stopName": "Riudoms 2"
+  },
+  {
+    "stopId": 139,
+    "stopName": "Rovira i Virgili 2"
+  },
+  {
+    "stopId": 140,
+    "stopName": "Rovira i Virgili 1"
+  },
+  {
+    "stopId": 142,
+    "stopName": "Saragossa"
+  },
+  {
+    "stopId": 143,
+    "stopName": "Sol i Vista 2"
+  },
+  {
+    "stopId": 144,
+    "stopName": "Sol i Vista 1"
+  },
+  {
+    "stopId": 145,
+    "stopName": "Sant Bernat Calbó 1"
+  },
+  {
+    "stopId": 146,
+    "stopName": "Sant Bernat Calbó 2"
+  },
+  {
+    "stopId": 147,
+    "stopName": "Tanatori 2"
+  },
+  {
+    "stopId": 148,
+    "stopName": "Tanatori 1"
+  },
+  {
+    "stopId": 149,
+    "stopName": "Tirant LO Blanc"
+  },
+  {
+    "stopId": 150,
+    "stopName": "Universitat 1"
+  },
+  {
+    "stopId": 151,
+    "stopName": "Universitat 2"
+  },
+  {
+    "stopId": 152,
+    "stopName": "Urb. Juncosa 1"
+  },
+  {
+    "stopId": 153,
+    "stopName": "Urb. Juncosa 2"
+  },
+  {
+    "stopId": 154,
+    "stopName": "Vall d'Aran"
+  },
+  {
+    "stopId": 155,
+    "stopName": "Ventura i Gassol 1"
+  },
+  {
+    "stopId": 156,
+    "stopName": "Ventura i Gassol 2"
+  },
+  {
+    "stopId": 157,
+    "stopName": "Victor Català 2"
+  },
+  {
+    "stopId": 158,
+    "stopName": "Victor Català 1"
+  },
+  {
+    "stopId": 159,
+    "stopName": "Vidal i Barraquer"
+  },
+  {
+    "stopId": 160,
+    "stopName": "Vilafortuny 1"
+  },
+  {
+    "stopId": 161,
+    "stopName": "Vilafortuny 2"
+  },
+  {
+    "stopId": 162,
+    "stopName": "Vilallonga"
+  },
+  {
+    "stopId": 165,
+    "stopName": "CESDA"
+  },
+  {
+    "stopId": 166,
+    "stopName": "IES Gaudi-Mas Carandell"
+  },
+  {
+    "stopId": 167,
+    "stopName": "Villablanca"
+  },
+  {
+    "stopId": 168,
+    "stopName": "Jardins de Reus 2"
+  },
+  {
+    "stopId": 170,
+    "stopName": "Carles Riba 2"
+  },
+  {
+    "stopId": 171,
+    "stopName": "Carles Riba 1"
+  },
+  {
+    "stopId": 172,
+    "stopName": "Mas Abello 1"
+  },
+  {
+    "stopId": 173,
+    "stopName": "Sant Josep 2"
+  },
+  {
+    "stopId": 177,
+    "stopName": "CESDA Aeroport"
+  },
+  {
+    "stopId": 179,
+    "stopName": "Sant Josep 1"
+  },
+  {
+    "stopId": 181,
+    "stopName": "avda.del comerç"
+  },
+  {
+    "stopId": 182,
+    "stopName": "Verge del Mar"
+  },
+  {
+    "stopId": 183,
+    "stopName": "Mas Carpa "
+  },
+  {
+    "stopId": 186,
+    "stopName": "Avinguda del comerç 2"
+  },
+  {
+    "stopId": 187,
+    "stopName": "Avinguda Barcelona"
+  },
+  {
+    "stopId": 189,
+    "stopName": "Avinguda de Salou 2"
+  },
+  {
+    "stopId": 190,
+    "stopName": "Rosaleda"
+  },
+  {
+    "stopId": 194,
+    "stopName": "Jaume I 2"
+  },
+  {
+    "stopId": 195,
+    "stopName": "B. Gaudi"
+  },
+  {
+    "stopId": 196,
+    "stopName": "Hospital Consultes Externes 1"
+  },
+  {
+    "stopId": 197,
+    "stopName": "Hospital Consultes Externes 2"
+  },
+  {
+    "stopId": 198,
+    "stopName": "Nou Hospital 1"
+  },
+  {
+    "stopId": 199,
+    "stopName": "Nou Hospital 2"
+  },
+  {
+    "stopId": 200,
+    "stopName": "La Vitxeta"
+  },
+  {
+    "stopId": 201,
+    "stopName": "Blancafort"
+  },
+  {
+    "stopId": 202,
+    "stopName": "Regulació Nou Hospital"
+  },
+  {
+    "stopId": 203,
+    "stopName": "Fira de Reus 1"
+  },
+  {
+    "stopId": 204,
+    "stopName": "Fira de Reus 2"
+  },
+  {
+    "stopId": 205,
+    "stopName": "Tecnoparc 1"
+  },
+  {
+    "stopId": 206,
+    "stopName": "Tecnoparc 2"
+  },
+  {
+    "stopId": 207,
+    "stopName": "Avinguda de Tarragona 1"
+  },
+  {
+    "stopId": 208,
+    "stopName": "Avinguda de Tarragona 2"
+  },
+  {
+    "stopId": 209,
+    "stopName": "Escola Alba"
+  },
+  {
+    "stopId": 210,
+    "stopName": "Escola d'idiomes i Art"
+  },
+  {
+    "stopId": 211,
+    "stopName": "IPM 2"
+  },
+  {
+    "stopId": 214,
+    "stopName": "Aeroclub de Reus"
+  },
+  {
+    "stopId": 216,
+    "stopName": "Rosaleda 2"
+  },
+  {
+    "stopId": 217,
+    "stopName": "Llapis 1"
+  },
+  {
+    "stopId": 218,
+    "stopName": "Llapis 2"
+  },
+  {
+    "stopId": 219,
+    "stopName": "Raval de Robuster 2"
+  },
+  {
+    "stopId": 220,
+    "stopName": "Urb. Pàmies 2"
+  },
+  {
+    "stopId": 221,
+    "stopName": "Eduard Toda 1"
+  },
+  {
+    "stopId": 222,
+    "stopName": "Eduard Toda 2"
+  },
+  {
+    "stopId": 223,
+    "stopName": "Maria Aurèlia Campmany"
+  },
+  {
+    "stopId": 224,
+    "stopName": "Jaume Vidal Alcover"
+  },
+  {
+    "stopId": 225,
+    "stopName": "Aeroclub Reus a Aeroport"
+  },
+  {
+    "stopId": 226,
+    "stopName": "Estadi Municipal 2"
+  },
+  {
+    "stopId": 227,
+    "stopName": "Mas Carpa 2"
+  },
+  {
+    "stopId": 228,
+    "stopName": "Horticultura 2"
+  },
+  {
+    "stopId": 229,
+    "stopName": "Sant Joan 1"
+  },
+  {
+    "stopId": 230,
+    "stopName": "Sant Joan 2"
+  },
+  {
+    "stopId": 231,
+    "stopName": "Villablanca 2"
+  },
+  {
+    "stopId": 232,
+    "stopName": "Nuestra Señora del Mar 2"
+  },
+  {
+    "stopId": 233,
+    "stopName": "Biblioteca Pere Anguera 1"
+  },
+  {
+    "stopId": 234,
+    "stopName": "Biblioteca Pere Anguera 2"
+  },
+  {
+    "stopId": 235,
+    "stopName": "Urbanització Mercader"
+  },
+  {
+    "stopId": 236,
+    "stopName": "Vidal i Barraquer 1"
+  },
+  {
+    "stopId": 237,
+    "stopName": "Fundació Rosa Maria Vivar 1"
+  },
+  {
+    "stopId": 238,
+    "stopName": "Fundació Rosa Maria Vivar 2"
+  },
+  {
+    "stopId": 239,
+    "stopName": "Aparcament Granja Vila 1"
+  },
+  {
+    "stopId": 241,
+    "stopName": "Aparcament Pi de Burgar"
+  },
+  {
+    "stopId": 242,
+    "stopName": "Mercé Rodoreda"
+  },
+  {
+    "stopId": 243,
+    "stopName": "Vallespir"
+  },
+  {
+    "stopId": 244,
+    "stopName": "Passeig Nord Fatarella"
+  },
+  {
+    "stopId": 245,
+    "stopName": "Passeig Nord Poboleda"
+  },
+  {
+    "stopId": 248,
+    "stopName": "Cèlia Artiga i Esplugas"
+  },
+  {
+    "stopId": 249,
+    "stopName": "Llorenç Milans del Bosch"
+  },
+  {
+    "stopId": 250,
+    "stopName": "Xalets Quintana"
+  },
+  {
+    "stopId": 901,
+    "stopName": "PRUF 1"
+  },
+  {
+    "stopId": 905,
+    "stopName": "PRUF 5"
+  },
+  {
+    "stopId": 1113,
+    "stopName": "Estadi Municipal 2"
+  },
+  {
+    "stopId": 10043,
+    "stopName": "Dr. Vilaseca 1bis"
+  },
+  {
+    "stopId": 10061,
+    "stopName": "IES Domenech i Montaner bis"
+  },
+  {
+    "stopId": 10066,
+    "stopName": "Joan Rebull 2"
+  },
+  {
+    "stopId": 10091,
+    "stopName": "Oques 1 bis"
+  },
+  {
+    "stopId": 10154,
+    "stopName": "Vall d'Aran bis"
+  },
+  {
+    "stopId": 10167,
+    "stopName": "Villablanca 1"
+  },
+  {
+    "stopId": 11032,
+    "stopName": "Apel·les Mestres"
+  },
+  {
+    "stopId": 25000,
+    "stopName": "4 Garrofers"
+  },
+  {
+    "stopId": 25001,
+    "stopName": "Escola els Àngels"
+  },
+  {
+    "stopId": 25002,
+    "stopName": "Andorra"
+  },
+  {
+    "stopId": 25003,
+    "stopName": "Aqüeducte"
+  },
+  {
+    "stopId": 25004,
+    "stopName": "Argentina"
+  },
+  {
+    "stopId": 25005,
+    "stopName": "Arrabassada"
+  },
+  {
+    "stopId": 25006,
+    "stopName": "Catalunya"
+  },
+  {
+    "stopId": 25007,
+    "stopName": "Pallaresos"
+  },
+  {
+    "stopId": 25008,
+    "stopName": "Barri Nou"
+  },
+  {
+    "stopId": 25009,
+    "stopName": "Bastos"
+  },
+  {
+    "stopId": 25010,
+    "stopName": "Beneficencia"
+  },
+  {
+    "stopId": 25011,
+    "stopName": "Blauet"
+  },
+  {
+    "stopId": 25012,
+    "stopName": "Bombers"
+  },
+  {
+    "stopId": 25013,
+    "stopName": "Bon Sol"
+  },
+  {
+    "stopId": 25014,
+    "stopName": "Bonavista"
+  },
+  {
+    "stopId": 25015,
+    "stopName": "Les Botigues"
+  },
+  {
+    "stopId": 25016,
+    "stopName": "Brugent"
+  },
+  {
+    "stopId": 25017,
+    "stopName": "C.I. Formiguera"
+  },
+  {
+    "stopId": 25018,
+    "stopName": "Cala Romana"
+  },
+  {
+    "stopId": 25019,
+    "stopName": "Camí de la Cuixa"
+  },
+  {
+    "stopId": 25020,
+    "stopName": "Camí de Reus"
+  },
+  {
+    "stopId": 25021,
+    "stopName": "Campclar"
+  },
+  {
+    "stopId": 25022,
+    "stopName": "Cap la Granja"
+  },
+  {
+    "stopId": 25024,
+    "stopName": "Carrer Dos"
+  },
+  {
+    "stopId": 25026,
+    "stopName": "Carrer Vint-i-tres"
+  },
+  {
+    "stopId": 25028,
+    "stopName": "Catalunya"
+  },
+  {
+    "stopId": 25030,
+    "stopName": "Centre A"
+  },
+  {
+    "stopId": 25031,
+    "stopName": "Centre Comercial"
+  },
+  {
+    "stopId": 25032,
+    "stopName": "Claret"
+  },
+  {
+    "stopId": 25033,
+    "stopName": "Col·legi"
+  },
+  {
+    "stopId": 25034,
+    "stopName": "Comellar"
+  },
+  {
+    "stopId": 25035,
+    "stopName": "Complex Educatiu"
+  },
+  {
+    "stopId": 25036,
+    "stopName": "Comte de Rius"
+  },
+  {
+    "stopId": 25037,
+    "stopName": "Concòrdia"
+  },
+  {
+    "stopId": 25038,
+    "stopName": "Coop. Tàrraco"
+  },
+  {
+    "stopId": 25039,
+    "stopName": "Creu Roja"
+  },
+  {
+    "stopId": 25040,
+    "stopName": "Les Vinyes"
+  },
+  {
+    "stopId": 25041,
+    "stopName": "Diputació"
+  },
+  {
+    "stopId": 25042,
+    "stopName": "Escultor Martorell"
+  },
+  {
+    "stopId": 25044,
+    "stopName": "Educacional N-240"
+  },
+  {
+    "stopId": 25046,
+    "stopName": "Eix Transversal"
+  },
+  {
+    "stopId": 25047,
+    "stopName": "Balcó"
+  },
+  {
+    "stopId": 25048,
+    "stopName": "El Catllar"
+  },
+  {
+    "stopId": 25049,
+    "stopName": "El Pilar"
+  },
+  {
+    "stopId": 25050,
+    "stopName": "El Pont"
+  },
+  {
+    "stopId": 25051,
+    "stopName": "Pòsit"
+  },
+  {
+    "stopId": 25052,
+    "stopName": "Els Boscos"
+  },
+  {
+    "stopId": 25053,
+    "stopName": "Els Pins"
+  },
+  {
+    "stopId": 25054,
+    "stopName": "Enric d'Ossó"
+  },
+  {
+    "stopId": 25055,
+    "stopName": "Entrepins"
+  },
+  {
+    "stopId": 25056,
+    "stopName": "Equador"
+  },
+  {
+    "stopId": 25057,
+    "stopName": "Escola d'art"
+  },
+  {
+    "stopId": 25058,
+    "stopName": "Església"
+  },
+  {
+    "stopId": 25059,
+    "stopName": "Esquirol"
+  },
+  {
+    "stopId": 25061,
+    "stopName": "Estadi"
+  },
+  {
+    "stopId": 25062,
+    "stopName": "Estanislau Figueres"
+  },
+  {
+    "stopId": 25063,
+    "stopName": "Europa"
+  },
+  {
+    "stopId": 25064,
+    "stopName": "Ferran"
+  },
+  {
+    "stopId": 25065,
+    "stopName": "Florimar"
+  },
+  {
+    "stopId": 25067,
+    "stopName": "Fòrum"
+  },
+  {
+    "stopId": 25068,
+    "stopName": "Bastos"
+  },
+  {
+    "stopId": 25069,
+    "stopName": "Francesc Macià"
+  },
+  {
+    "stopId": 25070,
+    "stopName": "Gaià"
+  },
+  {
+    "stopId": 25071,
+    "stopName": "Gaudí"
+  },
+  {
+    "stopId": 25072,
+    "stopName": "Goya"
+  },
+  {
+    "stopId": 25073,
+    "stopName": "Guatemala"
+  },
+  {
+    "stopId": 25074,
+    "stopName": "Hospital Joan XXIII"
+  },
+  {
+    "stopId": 25075,
+    "stopName": "Icomar"
+  },
+  {
+    "stopId": 25076,
+    "stopName": "Imperi Romà"
+  },
+  {
+    "stopId": 25077,
+    "stopName": "Institut"
+  },
+  {
+    "stopId": 25078,
+    "stopName": "Jaume I"
+  },
+  {
+    "stopId": 25079,
+    "stopName": "Joan Molas"
+  },
+  {
+    "stopId": 25080,
+    "stopName": "Joan Serra"
+  },
+  {
+    "stopId": 25081,
+    "stopName": "Josep Roquè"
+  },
+  {
+    "stopId": 25082,
+    "stopName": "La Canonja"
+  },
+  {
+    "stopId": 25083,
+    "stopName": "La Floresta"
+  },
+  {
+    "stopId": 25085,
+    "stopName": "La Font"
+  },
+  {
+    "stopId": 25086,
+    "stopName": "La Granja"
+  },
+  {
+    "stopId": 25087,
+    "stopName": "La Mora"
+  },
+  {
+    "stopId": 25088,
+    "stopName": "La Plaça"
+  },
+  {
+    "stopId": 25089,
+    "stopName": "Platja"
+  },
+  {
+    "stopId": 25090,
+    "stopName": "La Salle"
+  },
+  {
+    "stopId": 25091,
+    "stopName": "L'Albada"
+  },
+  {
+    "stopId": 25092,
+    "stopName": "L'Ebre"
+  },
+  {
+    "stopId": 25093,
+    "stopName": "Les Botigues"
+  },
+  {
+    "stopId": 25094,
+    "stopName": "Gavarres Nord"
+  },
+  {
+    "stopId": 25096,
+    "stopName": "Les Neus"
+  },
+  {
+    "stopId": 25098,
+    "stopName": "Llevantina 1"
+  },
+  {
+    "stopId": 25099,
+    "stopName": "Llevantina 2"
+  },
+  {
+    "stopId": 25100,
+    "stopName": "Llobregat"
+  },
+  {
+    "stopId": 25101,
+    "stopName": "Llorenç de Villalonga"
+  },
+  {
+    "stopId": 25102,
+    "stopName": "Lluís Companys"
+  },
+  {
+    "stopId": 25103,
+    "stopName": "L'Olivera"
+  },
+  {
+    "stopId": 25104,
+    "stopName": "Mallorca"
+  },
+  {
+    "stopId": 25105,
+    "stopName": "Pere Martell, 51"
+  },
+  {
+    "stopId": 25106,
+    "stopName": "Marenostrum"
+  },
+  {
+    "stopId": 25107,
+    "stopName": "Mas de les Flors"
+  },
+  {
+    "stopId": 25108,
+    "stopName": "Mas del Sevil"
+  },
+  {
+    "stopId": 25110,
+    "stopName": "Mas d'en Garrot"
+  },
+  {
+    "stopId": 25111,
+    "stopName": "Mas Rabassa"
+  },
+  {
+    "stopId": 25112,
+    "stopName": "Masricard"
+  },
+  {
+    "stopId": 25113,
+    "stopName": "Mediterrani"
+  },
+  {
+    "stopId": 25114,
+    "stopName": "Mercadet"
+  },
+  {
+    "stopId": 25115,
+    "stopName": "Miracle"
+  },
+  {
+    "stopId": 25117,
+    "stopName": "Miramar"
+  },
+  {
+    "stopId": 25119,
+    "stopName": "Monnars"
+  },
+  {
+    "stopId": 25120,
+    "stopName": "Monnars Residencial"
+  },
+  {
+    "stopId": 25121,
+    "stopName": "Montblanc"
+  },
+  {
+    "stopId": 25122,
+    "stopName": "Montoliu"
+  },
+  {
+    "stopId": 25123,
+    "stopName": "Montsant"
+  },
+  {
+    "stopId": 25124,
+    "stopName": "Montsià"
+  },
+  {
+    "stopId": 25125,
+    "stopName": "Mozart"
+  },
+  {
+    "stopId": 25126,
+    "stopName": "Muller"
+  },
+  {
+    "stopId": 25127,
+    "stopName": "Muntanyeta de l'Oliva"
+  },
+  {
+    "stopId": 25128,
+    "stopName": "Muntanyeta"
+  },
+  {
+    "stopId": 25129,
+    "stopName": "Naranjos"
+  },
+  {
+    "stopId": 25130,
+    "stopName": "El Serrallo"
+  },
+  {
+    "stopId": 25131,
+    "stopName": "Nou Vial"
+  },
+  {
+    "stopId": 25132,
+    "stopName": "Osona"
+  },
+  {
+    "stopId": 25133,
+    "stopName": "Enric d'Ossó"
+  },
+  {
+    "stopId": 25134,
+    "stopName": "Països Catalans"
+  },
+  {
+    "stopId": 25135,
+    "stopName": "Pallaresos"
+  },
+  {
+    "stopId": 25136,
+    "stopName": "Parc"
+  },
+  {
+    "stopId": 25137,
+    "stopName": "Parc Riuclar"
+  },
+  {
+    "stopId": 25138,
+    "stopName": "Parc Riuclar"
+  },
+  {
+    "stopId": 25139,
+    "stopName": "Part Alta"
+  },
+  {
+    "stopId": 25140,
+    "stopName": "Part Baixa"
+  },
+  {
+    "stopId": 25141,
+    "stopName": "Pau Casals"
+  },
+  {
+    "stopId": 25142,
+    "stopName": "Pedrol"
+  },
+  {
+    "stopId": 25143,
+    "stopName": "Pere Martell"
+  },
+  {
+    "stopId": 25144,
+    "stopName": "Pilats"
+  },
+  {
+    "stopId": 25145,
+    "stopName": "Pinars"
+  },
+  {
+    "stopId": 25146,
+    "stopName": "Pl. Carros"
+  },
+  {
+    "stopId": 25147,
+    "stopName": "Pl. Generalitat"
+  },
+  {
+    "stopId": 25149,
+    "stopName": "Planot"
+  },
+  {
+    "stopId": 25151,
+    "stopName": "Platja Llarga"
+  },
+  {
+    "stopId": 25152,
+    "stopName": "Poligon"
+  },
+  {
+    "stopId": 25153,
+    "stopName": "Polígon Francolí"
+  },
+  {
+    "stopId": 25154,
+    "stopName": "Poliesportiu"
+  },
+  {
+    "stopId": 25155,
+    "stopName": "Politecnic"
+  },
+  {
+    "stopId": 25156,
+    "stopName": "Pont del Diable"
+  },
+  {
+    "stopId": 25158,
+    "stopName": "Portal del Roser"
+  },
+  {
+    "stopId": 25159,
+    "stopName": "Prat de la Riba, 11"
+  },
+  {
+    "stopId": 25160,
+    "stopName": "Prefabricats"
+  },
+  {
+    "stopId": 25161,
+    "stopName": "Prim"
+  },
+  {
+    "stopId": 25162,
+    "stopName": "Campus Catalunya"
+  },
+  {
+    "stopId": 25163,
+    "stopName": "Rambla Nova"
+  },
+  {
+    "stopId": 25164,
+    "stopName": "Rambla Vella"
+  },
+  {
+    "stopId": 25167,
+    "stopName": "Reial"
+  },
+  {
+    "stopId": 25168,
+    "stopName": "Riuclar"
+  },
+  {
+    "stopId": 25169,
+    "stopName": "Rovira i Virgili"
+  },
+  {
+    "stopId": 25170,
+    "stopName": "Salvador Espriu"
+  },
+  {
+    "stopId": 25171,
+    "stopName": "St. Francesc"
+  },
+  {
+    "stopId": 25172,
+    "stopName": "Savinosa"
+  },
+  {
+    "stopId": 25173,
+    "stopName": "Secà"
+  },
+  {
+    "stopId": 25174,
+    "stopName": "Sector Nord"
+  },
+  {
+    "stopId": 25175,
+    "stopName": "Segre"
+  },
+  {
+    "stopId": 25176,
+    "stopName": "Siurana"
+  },
+  {
+    "stopId": 25177,
+    "stopName": "Solimar"
+  },
+  {
+    "stopId": 25178,
+    "stopName": "St. Antoni"
+  },
+  {
+    "stopId": 25179,
+    "stopName": "St. Bartomeu"
+  },
+  {
+    "stopId": 25180,
+    "stopName": "St. Benilde"
+  },
+  {
+    "stopId": 25181,
+    "stopName": "St. Francesc"
+  },
+  {
+    "stopId": 25182,
+    "stopName": "St. Jordi"
+  },
+  {
+    "stopId": 25183,
+    "stopName": "St. Pere i St. Pau"
+  },
+  {
+    "stopId": 25184,
+    "stopName": "St. Ramon"
+  },
+  {
+    "stopId": 25185,
+    "stopName": "St. Salvador"
+  },
+  {
+    "stopId": 25186,
+    "stopName": "Sta. Isabel"
+  },
+  {
+    "stopId": 25187,
+    "stopName": "Sta. Tecla Llevant"
+  },
+  {
+    "stopId": 25188,
+    "stopName": "Tamarit"
+  },
+  {
+    "stopId": 25189,
+    "stopName": "Tanatori"
+  },
+  {
+    "stopId": 25190,
+    "stopName": "Tarradellas"
+  },
+  {
+    "stopId": 25191,
+    "stopName": "Tennis"
+  },
+  {
+    "stopId": 25192,
+    "stopName": "Topromi"
+  },
+  {
+    "stopId": 25193,
+    "stopName": "Torreforta"
+  },
+  {
+    "stopId": 25194,
+    "stopName": "Torres Jordi"
+  },
+  {
+    "stopId": 25195,
+    "stopName": "Tortosa"
+  },
+  {
+    "stopId": 25196,
+    "stopName": "Tramuntana"
+  },
+  {
+    "stopId": 25197,
+    "stopName": "Tuset"
+  },
+  {
+    "stopId": 25198,
+    "stopName": "Vall de l'Arrabassada"
+  },
+  {
+    "stopId": 25199,
+    "stopName": "Veneçuela"
+  },
+  {
+    "stopId": 25200,
+    "stopName": "Via Augusta"
+  },
+  {
+    "stopId": 25201,
+    "stopName": "Vidal i Barraquer"
+  },
+  {
+    "stopId": 25202,
+    "stopName": "Violant d'Hongria"
+  },
+  {
+    "stopId": 25208,
+    "stopName": "Cap Muralles"
+  },
+  {
+    "stopId": 25210,
+    "stopName": "L'Ebre"
+  },
+  {
+    "stopId": 25211,
+    "stopName": "L'Escorpí"
+  },
+  {
+    "stopId": 25212,
+    "stopName": "Mestre Xavier Gols"
+  },
+  {
+    "stopId": 25214,
+    "stopName": "SS Francoli"
+  },
+  {
+    "stopId": 25217,
+    "stopName": "Av. Catalunya, 52"
+  },
+  {
+    "stopId": 25218,
+    "stopName": "Creu Roja N-240"
+  },
+  {
+    "stopId": 25446,
+    "stopName": "Guineu"
+  },
+  {
+    "stopId": 25447,
+    "stopName": "Països Catalans, 41"
+  },
+  {
+    "stopId": 25449,
+    "stopName": "Oscar Esplà"
+  },
+  {
+    "stopId": 25450,
+    "stopName": "Lamote de Grignon"
+  },
+  {
+    "stopId": 25451,
+    "stopName": "Isaac Albèniz"
+  },
+  {
+    "stopId": 25452,
+    "stopName": "Antoni Nicolau"
+  },
+  {
+    "stopId": 25453,
+    "stopName": "Rambla Nova, 105"
+  },
+  {
+    "stopId": 25454,
+    "stopName": "Castell de Tamarit"
+  },
+  {
+    "stopId": 25457,
+    "stopName": "Dues Hortes"
+  },
+  {
+    "stopId": 25458,
+    "stopName": "Pau Vidal"
+  },
+  {
+    "stopId": 25459,
+    "stopName": "Buenos Aires"
+  },
+  {
+    "stopId": 25461,
+    "stopName": "Passeig de les Palmeres"
+  },
+  {
+    "stopId": 25463,
+    "stopName": "Mercat"
+  },
+  {
+    "stopId": 25464,
+    "stopName": "Parc"
+  },
+  {
+    "stopId": 25469,
+    "stopName": "Bonavista"
+  },
+  {
+    "stopId": 25470,
+    "stopName": "Escola Tarragona"
+  },
+  {
+    "stopId": 25471,
+    "stopName": "Doctor Mallafré, 7"
+  },
+  {
+    "stopId": 25472,
+    "stopName": "P.P.9"
+  },
+  {
+    "stopId": 25473,
+    "stopName": "Campsrodons"
+  },
+  {
+    "stopId": 25474,
+    "stopName": "L'Alzina del Mas"
+  },
+  {
+    "stopId": 25483,
+    "stopName": "Rambla Nova"
+  },
+  {
+    "stopId": 25488,
+    "stopName": "Carrer Vint, 56"
+  },
+  {
+    "stopId": 25489,
+    "stopName": "Carrer Vint, 34"
+  },
+  {
+    "stopId": 25490,
+    "stopName": "Carrer Vint, 10"
+  },
+  {
+    "stopId": 25491,
+    "stopName": "Turia"
+  },
+  {
+    "stopId": 25502,
+    "stopName": "Conca de Barbera"
+  },
+  {
+    "stopId": 25503,
+    "stopName": "Aiguamolls del Gaià"
+  },
+  {
+    "stopId": 25507,
+    "stopName": "4 Garrofers"
+  },
+  {
+    "stopId": 25508,
+    "stopName": "Escola els Àngels"
+  },
+  {
+    "stopId": 25509,
+    "stopName": "Andorra"
+  },
+  {
+    "stopId": 25510,
+    "stopName": "Aqüeducte"
+  },
+  {
+    "stopId": 25511,
+    "stopName": "Argentina"
+  },
+  {
+    "stopId": 25512,
+    "stopName": "Arrabassada"
+  },
+  {
+    "stopId": 25513,
+    "stopName": "Balcó"
+  },
+  {
+    "stopId": 25514,
+    "stopName": "Barri Nou"
+  },
+  {
+    "stopId": 25515,
+    "stopName": "Beneficència"
+  },
+  {
+    "stopId": 25516,
+    "stopName": "Blauet"
+  },
+  {
+    "stopId": 25517,
+    "stopName": "Bombers"
+  },
+  {
+    "stopId": 25518,
+    "stopName": "Bon Sol"
+  },
+  {
+    "stopId": 25519,
+    "stopName": "Bonavista"
+  },
+  {
+    "stopId": 25520,
+    "stopName": "Brugent"
+  },
+  {
+    "stopId": 25521,
+    "stopName": "Brugent"
+  },
+  {
+    "stopId": 25522,
+    "stopName": "Buenos Aires"
+  },
+  {
+    "stopId": 25523,
+    "stopName": "Cap la Granja"
+  },
+  {
+    "stopId": 25524,
+    "stopName": "Cala Romana"
+  },
+  {
+    "stopId": 25525,
+    "stopName": "Camí de la Cuixa"
+  },
+  {
+    "stopId": 25526,
+    "stopName": "Camí de Reus"
+  },
+  {
+    "stopId": 25527,
+    "stopName": "Campus Catalunya"
+  },
+  {
+    "stopId": 25528,
+    "stopName": "C.I. Formiguera"
+  },
+  {
+    "stopId": 25529,
+    "stopName": "Carrer Vint"
+  },
+  {
+    "stopId": 25530,
+    "stopName": "Carrer Vint"
+  },
+  {
+    "stopId": 25531,
+    "stopName": "Carrer Vint, 10"
+  },
+  {
+    "stopId": 25532,
+    "stopName": "Castell de Tamarit"
+  },
+  {
+    "stopId": 25533,
+    "stopName": "Catalunya"
+  },
+  {
+    "stopId": 25534,
+    "stopName": "Claret"
+  },
+  {
+    "stopId": 25535,
+    "stopName": "Col·legi"
+  },
+  {
+    "stopId": 25536,
+    "stopName": "Conca de Barbera"
+  },
+  {
+    "stopId": 25537,
+    "stopName": "Educacional N-240"
+  },
+  {
+    "stopId": 25538,
+    "stopName": "Eix Transversal"
+  },
+  {
+    "stopId": 25540,
+    "stopName": "El Pilar"
+  },
+  {
+    "stopId": 25541,
+    "stopName": "El Pont"
+  },
+  {
+    "stopId": 25542,
+    "stopName": "Pòsit"
+  },
+  {
+    "stopId": 25543,
+    "stopName": "Equador"
+  },
+  {
+    "stopId": 25544,
+    "stopName": "Escoles Bonavista"
+  },
+  {
+    "stopId": 25545,
+    "stopName": "Escoles Bonavista"
+  },
+  {
+    "stopId": 25546,
+    "stopName": "Escultor Martorell"
+  },
+  {
+    "stopId": 25548,
+    "stopName": "Església"
+  },
+  {
+    "stopId": 25549,
+    "stopName": "Esquirol"
+  },
+  {
+    "stopId": 25550,
+    "stopName": "Estació"
+  },
+  {
+    "stopId": 25551,
+    "stopName": "Europa"
+  },
+  {
+    "stopId": 25552,
+    "stopName": "Francesc Macià"
+  },
+  {
+    "stopId": 25553,
+    "stopName": "Gaià"
+  },
+  {
+    "stopId": 25554,
+    "stopName": "Goya"
+  },
+  {
+    "stopId": 25555,
+    "stopName": "Guatemala"
+  },
+  {
+    "stopId": 25556,
+    "stopName": "Guineu"
+  },
+  {
+    "stopId": 25557,
+    "stopName": "Icomar"
+  },
+  {
+    "stopId": 25558,
+    "stopName": "Icomar"
+  },
+  {
+    "stopId": 25559,
+    "stopName": "Icomar"
+  },
+  {
+    "stopId": 25560,
+    "stopName": "Institut"
+  },
+  {
+    "stopId": 25561,
+    "stopName": "Jaume I"
+  },
+  {
+    "stopId": 25562,
+    "stopName": "Joan Molas"
+  },
+  {
+    "stopId": 25563,
+    "stopName": "Joan Serra"
+  },
+  {
+    "stopId": 25564,
+    "stopName": "Josep Roquè"
+  },
+  {
+    "stopId": 25565,
+    "stopName": "La Canonja"
+  },
+  {
+    "stopId": 25566,
+    "stopName": "La Granja"
+  },
+  {
+    "stopId": 25567,
+    "stopName": "La Mora"
+  },
+  {
+    "stopId": 25568,
+    "stopName": "La Plaça"
+  },
+  {
+    "stopId": 25569,
+    "stopName": "La Salle"
+  },
+  {
+    "stopId": 25570,
+    "stopName": "Llobregat"
+  },
+  {
+    "stopId": 25571,
+    "stopName": "Lluís Companys"
+  },
+  {
+    "stopId": 25572,
+    "stopName": "L'Olivera"
+  },
+  {
+    "stopId": 25573,
+    "stopName": "Pere Martell, 33"
+  },
+  {
+    "stopId": 25574,
+    "stopName": "Marenostrum"
+  },
+  {
+    "stopId": 25575,
+    "stopName": "Mas d'en Garrot"
+  },
+  {
+    "stopId": 25576,
+    "stopName": "Mercat"
+  },
+  {
+    "stopId": 25577,
+    "stopName": "Miracle"
+  },
+  {
+    "stopId": 25578,
+    "stopName": "Miramar"
+  },
+  {
+    "stopId": 25580,
+    "stopName": "Monnars"
+  },
+  {
+    "stopId": 25581,
+    "stopName": "Muntanyeta de l'Oliva"
+  },
+  {
+    "stopId": 25582,
+    "stopName": "Montoliu"
+  },
+  {
+    "stopId": 25583,
+    "stopName": "Montsant"
+  },
+  {
+    "stopId": 25584,
+    "stopName": "Montsià"
+  },
+  {
+    "stopId": 25585,
+    "stopName": "Mozart"
+  },
+  {
+    "stopId": 25586,
+    "stopName": "Naranjos"
+  },
+  {
+    "stopId": 25587,
+    "stopName": "Nou Vial"
+  },
+  {
+    "stopId": 25588,
+    "stopName": "Osona"
+  },
+  {
+    "stopId": 25589,
+    "stopName": "Països Catalans"
+  },
+  {
+    "stopId": 25590,
+    "stopName": "Països Catalans, 41"
+  },
+  {
+    "stopId": 25591,
+    "stopName": "Parc"
+  },
+  {
+    "stopId": 25598,
+    "stopName": "Pilats"
+  },
+  {
+    "stopId": 25599,
+    "stopName": "Pl. Carros"
+  },
+  {
+    "stopId": 25600,
+    "stopName": "Pl. Generalitat"
+  },
+  {
+    "stopId": 25601,
+    "stopName": "Pl. Imperial Tàrraco"
+  },
+  {
+    "stopId": 25602,
+    "stopName": "Pl. Imperial Tàrraco"
+  },
+  {
+    "stopId": 25604,
+    "stopName": "Pl. Imperial Tàrraco"
+  },
+  {
+    "stopId": 25605,
+    "stopName": "Pl. Imperial Tàrraco"
+  },
+  {
+    "stopId": 25607,
+    "stopName": "Platja Llarga"
+  },
+  {
+    "stopId": 25609,
+    "stopName": "Poligon Francoli"
+  },
+  {
+    "stopId": 25610,
+    "stopName": "Poliesportiu"
+  },
+  {
+    "stopId": 25613,
+    "stopName": "Portal del Roser"
+  },
+  {
+    "stopId": 25615,
+    "stopName": "Prim"
+  },
+  {
+    "stopId": 25616,
+    "stopName": "Casanova"
+  },
+  {
+    "stopId": 25620,
+    "stopName": "Rambla Vella"
+  },
+  {
+    "stopId": 25624,
+    "stopName": "Reial"
+  },
+  {
+    "stopId": 25625,
+    "stopName": "Riuclar"
+  },
+  {
+    "stopId": 25626,
+    "stopName": "Sant Antoni"
+  },
+  {
+    "stopId": 25627,
+    "stopName": "St. Benilde"
+  },
+  {
+    "stopId": 25628,
+    "stopName": "St. Bartomeu"
+  },
+  {
+    "stopId": 25629,
+    "stopName": "St. Jordi"
+  },
+  {
+    "stopId": 25630,
+    "stopName": "Savinosa"
+  },
+  {
+    "stopId": 25631,
+    "stopName": "Sector Nord"
+  },
+  {
+    "stopId": 25632,
+    "stopName": "Segre"
+  },
+  {
+    "stopId": 25633,
+    "stopName": "Solimar"
+  },
+  {
+    "stopId": 25634,
+    "stopName": "St. Pere i St. Pau"
+  },
+  {
+    "stopId": 25635,
+    "stopName": "St. Ramon"
+  },
+  {
+    "stopId": 25636,
+    "stopName": "Sta. Tecla Llevant"
+  },
+  {
+    "stopId": 25637,
+    "stopName": "Tamarit"
+  },
+  {
+    "stopId": 25638,
+    "stopName": "Tanatori"
+  },
+  {
+    "stopId": 25639,
+    "stopName": "Tarradellas"
+  },
+  {
+    "stopId": 25640,
+    "stopName": "Tarradellas"
+  },
+  {
+    "stopId": 25641,
+    "stopName": "Tarradellas"
+  },
+  {
+    "stopId": 25643,
+    "stopName": "Tennis"
+  },
+  {
+    "stopId": 25644,
+    "stopName": "Topromi"
+  },
+  {
+    "stopId": 25645,
+    "stopName": "Torreforta"
+  },
+  {
+    "stopId": 25646,
+    "stopName": "Torres Jordi"
+  },
+  {
+    "stopId": 25647,
+    "stopName": "Tramuntana"
+  },
+  {
+    "stopId": 25648,
+    "stopName": "Turia"
+  },
+  {
+    "stopId": 25649,
+    "stopName": "Tuset"
+  },
+  {
+    "stopId": 25650,
+    "stopName": "Vall de l'Arrabassada"
+  },
+  {
+    "stopId": 25651,
+    "stopName": "Veneçuela"
+  },
+  {
+    "stopId": 25652,
+    "stopName": "Via Augusta"
+  },
+  {
+    "stopId": 25654,
+    "stopName": "Vidal i Barraquer"
+  },
+  {
+    "stopId": 25655,
+    "stopName": "Violant d'Hongria"
+  },
+  {
+    "stopId": 25659,
+    "stopName": "El Pinatell"
+  },
+  {
+    "stopId": 25660,
+    "stopName": "Escola Arrabassada"
+  },
+  {
+    "stopId": 25662,
+    "stopName": "Polígon"
+  },
+  {
+    "stopId": 25663,
+    "stopName": "Fra Antoni Cardona i Grau"
+  },
+  {
+    "stopId": 25664,
+    "stopName": "Ctra. València, 224"
+  },
+  {
+    "stopId": 25665,
+    "stopName": "Ctra. València, 222"
+  },
+  {
+    "stopId": 25666,
+    "stopName": "Pg. Torroja, 52"
+  },
+  {
+    "stopId": 25667,
+    "stopName": "Pg. Torroja, 1"
+  },
+  {
+    "stopId": 25669,
+    "stopName": "L'Albada"
+  },
+  {
+    "stopId": 25670,
+    "stopName": "Carabia"
+  },
+  {
+    "stopId": 25671,
+    "stopName": "Centre Comercial"
+  },
+  {
+    "stopId": 25672,
+    "stopName": "La Floresta"
+  },
+  {
+    "stopId": 25673,
+    "stopName": "Cubertain"
+  },
+  {
+    "stopId": 25674,
+    "stopName": "Pont i Gol 41"
+  },
+  {
+    "stopId": 25675,
+    "stopName": "Ramon y Cajal, 40"
+  },
+  {
+    "stopId": 25676,
+    "stopName": "Apodaca, 11"
+  },
+  {
+    "stopId": 25677,
+    "stopName": "Pere Martell, 54"
+  },
+  {
+    "stopId": 25678,
+    "stopName": "Pere Martell, 34"
+  },
+  {
+    "stopId": 25679,
+    "stopName": "Frederic Escofet Alsina"
+  },
+  {
+    "stopId": 25682,
+    "stopName": "Necròpolis"
+  },
+  {
+    "stopId": 25683,
+    "stopName": "Vidal i Barraquer, 25"
+  },
+  {
+    "stopId": 25684,
+    "stopName": "Rambla Nova, 64"
+  },
+  {
+    "stopId": 25687,
+    "stopName": "Tenerife"
+  },
+  {
+    "stopId": 25688,
+    "stopName": "Illes Balears, 7"
+  },
+  {
+    "stopId": 25689,
+    "stopName": "Rodolat del Moro"
+  },
+  {
+    "stopId": 25690,
+    "stopName": "Miramar III"
+  },
+  {
+    "stopId": 25693,
+    "stopName": "Colom, 14"
+  },
+  {
+    "stopId": 25695,
+    "stopName": "Colom, 7"
+  },
+  {
+    "stopId": 25697,
+    "stopName": "Tarradellas, 4"
+  },
+  {
+    "stopId": 25719,
+    "stopName": "Mas Pastor"
+  },
+  {
+    "stopId": 25720,
+    "stopName": "Tarragones, 5"
+  },
+  {
+    "stopId": 25821,
+    "stopName": "Dr. Mallafrè, 11"
+  },
+  {
+    "stopId": 25822,
+    "stopName": "Dr. Mallafrè, 12"
+  },
+  {
+    "stopId": 25823,
+    "stopName": "Mediterrani"
+  },
+  {
+    "stopId": 25824,
+    "stopName": "Ctra. de València, 1"
+  },
+  {
+    "stopId": 25825,
+    "stopName": "Ctra. de València, 2"
+  },
+  {
+    "stopId": 25847,
+    "stopName": "Ctra. València, 230"
+  },
+  {
+    "stopId": 25875,
+    "stopName": "Ctra. València 232"
+  },
+  {
+    "stopId": 25876,
+    "stopName": "Ctra. València 216"
+  },
+  {
+    "stopId": 25877,
+    "stopName": "Ctra. València 214"
+  },
+  {
+    "stopId": 25879,
+    "stopName": "Urb. Balcó de Tarragona (a la demanda)"
+  },
+  {
+    "stopId": 25913,
+    "stopName": "Dissuasiu cementiri"
+  },
+  {
+    "stopId": 25914,
+    "stopName": "Via Roma, 7"
+  },
+  {
+    "stopId": 25915,
+    "stopName": "Via Roma, 14"
+  },
+  {
+    "stopId": 25917,
+    "stopName": "Uruguai, 1"
+  },
+  {
+    "stopId": 25918,
+    "stopName": "Uruguai, 2"
+  },
+  {
+    "stopId": 25919,
+    "stopName": "Josep Gramunt i Subiela, 55"
+  },
+  {
+    "stopId": 25920,
+    "stopName": "Josep Gramunt i Subiela, 64"
+  },
+  {
+    "stopId": 25921,
+    "stopName": "Pi i Margall, 2"
+  },
+  {
+    "stopId": 25922,
+    "stopName": "Pi i Margall, 1"
+  },
+  {
+    "stopId": 25931,
+    "stopName": "El Catllar"
+  },
+  {
+    "stopId": 25933,
+    "stopName": "Recasens Hospital"
+  },
+  {
+    "stopId": 25934,
+    "stopName": "C. de les Violetes, 5"
+  },
+  {
+    "stopId": 25935,
+    "stopName": "C. de les Violetes, 6"
+  },
+  {
+    "stopId": 25936,
+    "stopName": "C. de les Orquídies, 2"
+  },
+  {
+    "stopId": 25937,
+    "stopName": "Battestini 1"
+  },
+  {
+    "stopId": 25938,
+    "stopName": "Battestini 2"
+  },
+  {
+    "stopId": 25939,
+    "stopName": "Battestini 3"
+  },
+  {
+    "stopId": 25940,
+    "stopName": "Battestini 4"
+  },
+  {
+    "stopId": 25941,
+    "stopName": "Battestini 5"
+  },
+  {
+    "stopId": 25942,
+    "stopName": "Battestini 6"
+  },
+  {
+    "stopId": 26234,
+    "stopName": "Estació del Camp"
+  },
+  {
+    "stopId": 26403,
+    "stopName": "Tarragona EA"
+  },
+  {
+    "stopId": 26564,
+    "stopName": "T-11 Carrefour"
+  },
+  {
+    "stopId": 26610,
+    "stopName": "Cantallops"
+  },
+  {
+    "stopId": 26613,
+    "stopName": "Marçà - Estació FFCC"
+  },
+  {
+    "stopId": 26629,
+    "stopName": "Sant Vicenç de Calders"
+  },
+  {
+    "stopId": 26630,
+    "stopName": "Torredembarra"
+  },
+  {
+    "stopId": 26631,
+    "stopName": "Altafulla - Tamarit"
+  },
+  {
+    "stopId": 26632,
+    "stopName": "Tarragona"
+  },
+  {
+    "stopId": 26633,
+    "stopName": "Vila-seca"
+  },
+  {
+    "stopId": 26634,
+    "stopName": "Reus"
+  },
+  {
+    "stopId": 26774,
+    "stopName": "Reus EA"
+  }
+]

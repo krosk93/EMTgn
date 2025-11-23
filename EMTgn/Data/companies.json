@@ -1,0 +1,26 @@
+[
+    {
+        "companyId": 8,
+        "companyName": "Renfe"
+    },
+    {
+        "companyId": 43,
+        "companyName": "Plana"
+    },
+    {
+        "companyId": 46,
+        "companyName": "Monbus"
+    },
+    {
+        "companyId": 202,
+        "companyName": "EMT Tarragona"
+    },
+    {
+        "companyId": 209,
+        "companyName": "TPP Domènech"
+    },
+    {
+        "companyId": 219,
+        "companyName": "Reus Transports"
+    }
+]

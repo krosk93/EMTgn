@@ -2,6 +2,7 @@
 hf-mf-*.bin
 hf-mf-*.json
 hf-mf-*.txt
+hf-mf-*.mct
 
 # globs
 Makefile.in
