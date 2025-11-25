@@ -1,13 +1,4 @@
-﻿using System;
-using System.IO;
-using System.Linq;
-using System.Collections.Generic;
-using InvertedTomato.IO;
-using Flurl.Http;
-using System.Threading.Tasks;
-using Spectre.Console;
-using System.Text;
-using EMTgn.Providers;
+﻿using System.Threading.Tasks;
 using Spectre.Console.Cli;
 
 namespace EMTgn

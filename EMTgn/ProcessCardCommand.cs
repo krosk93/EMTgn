@@ -80,7 +80,7 @@ internal sealed class ProcessCardCommand : AsyncCommand<ProcessCardCommand.Setti
                     hex.Append(Convert.ToString(bytes[j], 16).PadLeft(2, '0')).Append("      ");
                     sb.Append(Convert.ToString(bytes[j], 2).PadLeft(8, '0'));
                 }
-                sb.Replace("100001110101", "[red]100001110101[/]");
+                sb.Replace("10000110", "[red]10000110[/]");
                 AnsiConsole.MarkupLine(hex.ToString());
                 AnsiConsole.MarkupLine(sb.ToString());
             }
@@ -148,7 +148,7 @@ internal sealed class ProcessCardCommand : AsyncCommand<ProcessCardCommand.Setti
             string companyName = CompaniesProvider.GetName(op);
             string stopName = StopsProvider.GetName(stop);
             string lineName = LinesProvider.GetName(line);
-            AnsiConsole.MarkupLine($"[bold]Última validació:[/] Feta el {day.ToString().PadLeft(2, '0')}/{month.ToString().PadLeft(2, '0')}/{year} a les {hours.ToString().PadLeft(2, '0')}:{minutes.ToString().PadLeft(2, '0')} amb l'operador {companyName} des de {stopName} ({lineName}) Zona: {zone}{((verified && !settings.Pretty) ? " - Checksum verificat" : String.Empty)}");
+            AnsiConsole.MarkupLine($"[bold]Darrera validació:[/] Feta el {day.ToString().PadLeft(2, '0')}/{month.ToString().PadLeft(2, '0')}/{year} a les {hours.ToString().PadLeft(2, '0')}:{minutes.ToString().PadLeft(2, '0')} amb l'operador {companyName} des de {stopName} ({lineName}) Zona: {zone}{((verified && !settings.Pretty) ? " - Checksum verificat" : String.Empty)}");
             if(!settings.Pretty)
             {
                 AnsiConsole.WriteLine(string.Join("      ", bytes.Select(x => Convert.ToString(x, 16).PadLeft(2, '0'))));
@@ -193,26 +193,74 @@ internal sealed class ProcessCardCommand : AsyncCommand<ProcessCardCommand.Setti
         
         AnsiConsole.WriteLine();
 
-        ArraySegment<byte>[] trips = new ArraySegment<byte>[10];
-        curAddress = 0x150;
+        curAddress = 0x140;
         {
             var byteSegment = new ArraySegment<byte>(card, curAddress, 0x10);
-            curAddress += 0x10;
             byte[] bytes = byteSegment.Reverse().ToArray();
-            bool verified = CheckCRC(byteSegment);
-            int tripsLeft = bytes[7] >> 1;
-            int day = ((bytes[12] & 1) << 4) + (bytes[13] >> 4);
-            int month = bytes[13] & 15;
-            string date = $"{(day != 0 ? $"{day.ToString().PadLeft(2, '0')}/{month.ToString().PadLeft(2, '0')}" : "Sense caducitat")}";
+            int title = bytes[14];
+            string titleName = TitlesProvider.GetName(title);
+            
             if(!settings.Pretty) {
-                AnsiConsole.WriteLine($"Estat Targeta:");
-                AnsiConsole.WriteLine($"Viatges restants: {tripsLeft}");
-                AnsiConsole.WriteLine($"Caducitat títol: {date}");
-                AnsiConsole.WriteLine(string.Join("      ", bytes.Select(x => Convert.ToString(x, 16).PadLeft(2, '0'))));
+                AnsiConsole.MarkupLine($"[bold]Títol actual:[/] {titleName}");
+                AnsiConsole.MarkupLine(string.Join("      ", bytes.Select(x => Convert.ToString(x, 16).PadLeft(2, '0'))));
                 AnsiConsole.Markup($"[red]{Convert.ToString(bytes[0], 2).PadLeft(8, '0')}[/]");
                 AnsiConsole.Markup($"{Convert.ToString(bytes[1], 2).PadLeft(8, '0')}");
                 AnsiConsole.Markup($"{Convert.ToString(bytes[2], 2).PadLeft(8, '0')}");
                 AnsiConsole.Markup($"{Convert.ToString(bytes[3], 2).PadLeft(8, '0')}");
+                AnsiConsole.Markup($"{Convert.ToString(bytes[4], 2).PadLeft(8, '0')}");
+                AnsiConsole.Markup($"{Convert.ToString(bytes[5], 2).PadLeft(8, '0')}");
+                AnsiConsole.Markup($"{Convert.ToString(bytes[6], 2).PadLeft(8, '0')}");
+                AnsiConsole.Markup($"{Convert.ToString(bytes[7], 2).PadLeft(8, '0')}");
+                AnsiConsole.Markup($"{Convert.ToString(bytes[8], 2).PadLeft(8, '0')}");
+                AnsiConsole.Markup($"{Convert.ToString(bytes[9], 2).PadLeft(8, '0')}");
+                AnsiConsole.Markup($"{Convert.ToString(bytes[10], 2).PadLeft(8, '0')}");
+                AnsiConsole.Markup($"{Convert.ToString(bytes[11], 2).PadLeft(8, '0')}");
+                AnsiConsole.Markup($"{Convert.ToString(bytes[12], 2).PadLeft(8, '0')}");
+                AnsiConsole.Markup($"{Convert.ToString(bytes[13], 2).PadLeft(8, '0')}");
+                AnsiConsole.Markup($"[cornflowerblue]{Convert.ToString(bytes[14], 2).PadLeft(8, '0')}[/]");
+                AnsiConsole.Markup($"{Convert.ToString(bytes[15], 2).PadLeft(8, '0')}");
+                AnsiConsole.WriteLine();
+                AnsiConsole.Markup("[red]checksum[/]");
+                AnsiConsole.Markup("        ");
+                AnsiConsole.Markup("        ");
+                AnsiConsole.Markup("        ");
+                AnsiConsole.Markup("        ");
+                AnsiConsole.Markup("        ");
+                AnsiConsole.Markup("        ");
+                AnsiConsole.Markup("        ");
+                AnsiConsole.Markup("        ");
+                AnsiConsole.Markup("        ");
+                AnsiConsole.Markup("        ");
+                AnsiConsole.Markup("        ");
+                AnsiConsole.Markup("        ");
+                AnsiConsole.Markup("        ");
+                AnsiConsole.Markup("[cornflowerblue]tttttttt[/]");
+                AnsiConsole.Markup("        ");
+                AnsiConsole.WriteLine();
+            }
+
+            curAddress += 0x10;
+            byteSegment = new ArraySegment<byte>(card, curAddress, 0x10);
+            bytes = byteSegment.Reverse().ToArray();
+            bool verified = CheckCRC(byteSegment);
+
+            int tripsLeft = bytes[7] >> 1;
+            int day = ((bytes[12] & 1) << 4) + (bytes[13] >> 4);
+            int month = bytes[13] & 15;
+            int firstZone = ((bytes[2] & 15) << 4) + (bytes[3] >> 4);
+            string date = $"{(day != 0 ? $"{day.ToString().PadLeft(2, '0')}/{month.ToString().PadLeft(2, '0')}" : "Sense caducitat")}";
+            if(!settings.Pretty) {
+                AnsiConsole.MarkupLine($"[bold]Estat Targeta:[/]");
+                AnsiConsole.MarkupLine($"[bold]Viatges restants:[/] {tripsLeft}");
+                AnsiConsole.MarkupLine($"[bold]Caducitat títol:[/] {date}");
+                AnsiConsole.MarkupLine($"[bold]Zona primera validació:[/] {firstZone}");
+                AnsiConsole.MarkupLine(string.Join("      ", bytes.Select(x => Convert.ToString(x, 16).PadLeft(2, '0'))));
+                AnsiConsole.Markup($"[red]{Convert.ToString(bytes[0], 2).PadLeft(8, '0')}[/]");
+                AnsiConsole.Markup($"{Convert.ToString(bytes[1], 2).PadLeft(8, '0')}");
+                AnsiConsole.Markup($"{Convert.ToString(bytes[2] >> 4, 2).PadLeft(4, '0')}");
+                AnsiConsole.Markup($"[springgreen2]{Convert.ToString(bytes[2] & 15, 2).PadLeft(4, '0')}[/]");
+                AnsiConsole.Markup($"[springgreen2]{Convert.ToString(bytes[3] >> 4, 2).PadLeft(4, '0')}[/]");
+                AnsiConsole.Markup($"{Convert.ToString(bytes[3] & 15, 2).PadLeft(4, '0')}");
                 AnsiConsole.Markup($"{Convert.ToString(bytes[4], 2).PadLeft(8, '0')}");
                 AnsiConsole.Markup($"{Convert.ToString(bytes[5], 2).PadLeft(8, '0')}");
                 AnsiConsole.Markup($"{Convert.ToString(bytes[6], 2).PadLeft(8, '0')}");
@@ -231,8 +279,9 @@ internal sealed class ProcessCardCommand : AsyncCommand<ProcessCardCommand.Setti
                 AnsiConsole.WriteLine();
                 AnsiConsole.Markup("[red]checksum[/]");
                 AnsiConsole.Markup("        ");
-                AnsiConsole.Markup("        ");
-                AnsiConsole.Markup("        ");
+                AnsiConsole.Markup("    ");
+                AnsiConsole.Markup("[springgreen2]zzzzzzzz[/]");
+                AnsiConsole.Markup("    ");
                 AnsiConsole.Markup("        ");
                 AnsiConsole.Markup("        ");
                 AnsiConsole.Markup("        ");
@@ -252,14 +301,18 @@ internal sealed class ProcessCardCommand : AsyncCommand<ProcessCardCommand.Setti
             {
                 var statusTable = new Table();
                 statusTable.Title = new TableTitle("[bold]Estat de la targeta[/]");
+                statusTable.AddColumn("[bold]Títol actual[/]");
                 statusTable.AddColumn("[bold]Viatges restants[/]");
                 statusTable.AddColumn("[bold]Caducitat títol[/]");
-                statusTable.AddRow(tripsLeft.ToString(), date);
+                statusTable.AddColumn("[bold]Zona primera validació[/]");
+                statusTable.AddRow(titleName, tripsLeft.ToString(), date, firstZone.ToString());
                 AnsiConsole.Write(statusTable);
 
             }
             AnsiConsole.WriteLine();
         }
+
+        ArraySegment<byte>[] trips = new ArraySegment<byte>[10];
 
         curAddress = 0x240;
         Table rechargeTable = null;
@@ -308,7 +361,7 @@ internal sealed class ProcessCardCommand : AsyncCommand<ProcessCardCommand.Setti
                     AnsiConsole.Markup($"{Convert.ToString(bytes[4], 2).PadLeft(8, '0')}");
                     AnsiConsole.Markup($"{Convert.ToString(bytes[5], 2).PadLeft(8, '0')}");
                     AnsiConsole.Markup($"{Convert.ToString(bytes[6], 2).PadLeft(8, '0')}");
-                    AnsiConsole.Markup($"{Convert.ToString(bytes[7], 2).PadLeft(8, '0')}");
+                    AnsiConsole.Markup($"[cornflowerblue]{Convert.ToString(bytes[7], 2).PadLeft(8, '0')}[/]");
                     AnsiConsole.Markup($"{Convert.ToString(bytes[8], 2).PadLeft(8, '0')}");
                     AnsiConsole.Markup($"{Convert.ToString(bytes[9], 2).PadLeft(8, '0')}");
                     AnsiConsole.Markup($"{Convert.ToString(bytes[10], 2).PadLeft(8, '0')}");
@@ -323,6 +376,11 @@ internal sealed class ProcessCardCommand : AsyncCommand<ProcessCardCommand.Setti
                     AnsiConsole.Markup("[green]DDDDD[/]");
                     AnsiConsole.Markup("[aqua]MMMM[/]");
                     AnsiConsole.Markup("[magenta3]AAAA[/]");
+                    AnsiConsole.Markup("    ");
+                    AnsiConsole.Markup("        ");
+                    AnsiConsole.Markup("        ");
+                    AnsiConsole.Markup("        ");
+                    AnsiConsole.Markup("[cornflowerblue]tttttttt[/]");
                     AnsiConsole.WriteLine();
                 }
             }
@@ -343,7 +401,7 @@ internal sealed class ProcessCardCommand : AsyncCommand<ProcessCardCommand.Setti
                 .AddColumn("[bold]Vehicle[/]")
                 .AddColumn("[bold]Zona[/]")
                 .AddColumn("[bold]És transbord?[/]")
-                .Title = new TableTitle("[bold]Últimes 10 validacions[/]");
+                .Title = new TableTitle("[bold]Darreres 10 validacions[/]");
         }
         for (int i = 0; i < 10; i++)
         {

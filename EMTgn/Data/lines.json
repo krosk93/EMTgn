@@ -104,6 +104,10 @@
     "lineName": "99 - PRUEBAS"
   },
   {
+    "lineId": 406,
+    "lineName": "6 - Camp Clar-St Pere i St Pau"
+  },
+  {
     "lineId": 408,
     "lineName": "8 - Hosp. Joan XXIII-Arrabassada"
   },
@@ -126,6 +130,10 @@
   {
     "lineId": 786,
     "lineName": "41 - Zona Educacional-Estació"
+  },
+  {
+    "lineId": 789,
+    "lineName": "34 - Colom-Les Gavarres"
   },
   {
     "lineId": 790,
